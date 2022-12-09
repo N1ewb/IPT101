@@ -1,0 +1,15 @@
+{% extends 'base.html'%}
+
+{% block title%}
+  Profile
+{% endblock %}
+
+{% block content%}
+
+{% if not current_user.has_role('admin') %}
+  <p>Hello {{ current_user.firstname + current_user.lastname }}</p>
+{% else %}
+  <p>Hello Admin {{ current_user.email }}</p>
+{% endif %}
+
+{% endblock %}
