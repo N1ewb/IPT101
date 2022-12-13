@@ -1,7 +1,6 @@
-��#� �I�P�T�1�0�1�
-�
-�
+#IPT101
 
-### Requirements
+## Requirements
 
-# pip install -r requirements.txt
+* run this in your terminal
+```pip install -r requirements.txt```
